@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "include": [
+    "./src/**/*", 
+    "global.d.ts"
+  ],
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "views/*": [
+        "src/views/*"
+      ]
+    }
+  }
+}
